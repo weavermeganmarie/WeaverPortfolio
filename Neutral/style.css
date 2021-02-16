@@ -1,0 +1,285 @@
+
+body{font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Schoolbell', cursive;
+    margin-left: 0px !important;
+    margin-right: 0px !important;}
+    h1{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 160px;
+        line-height: 187px;
+        margin-top: 10px;
+        margin-bottom: 30px;}
+    h2{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;}
+    h3{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;}
+    h4{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;}
+    p1{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;}
+    p2{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;}
+    p3{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;}
+    p4{font-family: Schoolbell;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: white;}
+    p5{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;}
+/*Navigation*/
+
+/* General */
+
+.customNav {
+    background-color: white  !important;
+    width: 100%;
+    color: black !important;
+    opacity: 1 !important;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 75px !important;
+  }
+
+  .nav-item {
+    padding-left: 30px;
+  }
+
+  .container-fluid{
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background-color: white !important;
+    background-size: cover;
+    padding: 10px;
+    outline: none;
+
+  }
+  .dropdown-item1:focus, .dropdown-item1:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: #F34C1B;
+  }
+  .dropdown-item2:focus, .dropdown-item2:hover {
+    color: black;
+    text-decoration: none;
+    background: #FBA91E;
+}
+.dropdown-item3:focus, .dropdown-item3:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: #C9D8DF;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* Navigation links */
+.customNav a {
+    color: black !important;
+  }
+  #fixedlogo{position: fixed;
+    left: 10px;
+    top: 26px;
+    width: 40px;}
+
+.nav-item{
+    text-align: center;
+}
+.dropdown-item{
+    text-align: center;
+}
+/*intro section*/
+.intro{
+}
+#header{
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-top: 75px;
+    width: 30%;
+    margin-bottom: 50px;
+}
+.introduction{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    background-color: #C9D8DF;
+}
+#introimage{
+    width: 100%;
+}
+/*User Research*/
+.userResearch{
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-top: 50px;
+}
+.cloud{
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blueBG{
+    padding: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right,#C9D8DF 0%,#C9D8DF 95%,#C9D8DF 50%,white 5%,white 100%);
+}
+#empathy{
+    width: 100%;
+    padding: 10px;
+    padding-left: 100px;
+
+}
+.empathyMap{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#paddingRight{
+    padding-right: 100px;
+}
+/*Definition & Synthesis*/
+
+.definitionAndSynthesis{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    background-color: #C9D8DF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.whiteBG{
+    padding: 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right,white 0%,white 98%,white 50%, #C9D8DF 2%,#C9D8DF 100%);
+}
+/*Ideation*/
+.ideation{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#userFlow{
+    width: 100%;
+}
+.sketches{
+    width: 90%;
+}
+.prototyping{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #C9D8DF;
+}
+/*User Testing*/
+.userTesting{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.solutions{
+    width: 80%;
+    margin-bottom: 50px;
+}
+#style{
+    width: 95%;
+}
+.thickRMargin{
+ padding-right: 100px;
+}
+#solution1{
+    background-color: #C9D8DF;
+    padding-left: 15px;
+    padding-top: 0px;
+    margin-bottom: 50px;
+}
+#solution2{
+    background-color: #C9D8DF;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+/*Conclusions*/
+.conclusions{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #C9D8DF;
+}
+.finalImages{
+    width: 100%;
+}
+.conclusions1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.flexDisplay{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.finalGifs{
+    width: 90%;
+}
+.conclusions2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.scrollTop{
+    display: flex;
+    background-color:#C9D8DF;
+    color:black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*Footer*/
+.footer{
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 75px;
+    margin-bottom: 50px;}

@@ -1,0 +1,388 @@
+body{font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Schoolbell', cursive;
+    margin-left: 0px !important;
+    margin-right: 0px !important;}
+    h1{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 160px;
+        line-height: 187px;
+        margin-top: 10px;
+        margin-bottom: 30px;}
+    h2{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;}
+    h3{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;}
+    h4{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;}
+    p1{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;}
+    p2{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;}
+    p3{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;}
+    p4{font-family: Schoolbell;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: white;}
+    p5{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;}
+/*Navigation*/
+
+/* General */
+
+.customNav {
+    background-color: white  !important;
+    width: 100%;
+    color: black !important;
+    opacity: 1 !important;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 75px !important;
+  }
+
+  .nav-item {
+    padding-left: 30px;
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background-color: white !important;
+    background-size: cover;
+    padding: 10px;
+    outline: none;
+
+  }
+  .dropdown-item1:focus, .dropdown-item1:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: #F34C1B;
+  }
+  .dropdown-item2:focus, .dropdown-item2:hover {
+    color: black;
+    text-decoration: none;
+    background: #FBA91E;
+}
+.dropdown-item3:focus, .dropdown-item3:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: #C9D8DF;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* Navigation links */
+.customNav a {
+    color: black !important;
+  }
+  #fixedlogo{position: fixed;
+    left: 10px;
+    top: 26px;
+    width: 40px;}
+
+.nav-item{
+    text-align: center;
+}
+.dropdown-item{
+    text-align: center;
+}
+/*intro section*/
+.intro{
+}
+#header{
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-top: 75px;
+    width: 30%;
+    margin-bottom: 50px;
+}
+.introduction{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    background-color: #FBA91E;
+}
+#introimage{
+    width: 100%;
+}
+/*User Research*/
+.userResearch{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#heading{
+    margin-bottom: 50px;
+}
+#heuristicEvaluation{
+    margin-bottom: 50px;
+}
+#surveyResults{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#strengthWeakness{
+    margin-bottom: 50px;
+}
+#competitorAnalysis{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#graphs{
+    width: 100%;
+}
+#graphs1{
+    margin-top: 50px;
+    width: 100%;}
+#graphInfo{
+    text-align: right;
+}
+#competitorAdvantages{
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(to right,#F05426 0%,#F05426 95%,#F05426 50%,white 5%,white 100%);
+}
+#competitorStrengths{
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(to right, #FBA91E 0%,#FBA91E 95%,#FBA91E 50%,white 5%,white 100%);
+
+}
+#competitorWeaknesses{
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(to right, #6176AF 0%,#6176AF 95%,#6176AF 50%,white 5%,white 100%);
+}
+
+#interviewInfo{
+    margin-top: 40px;
+    padding-right: 10px;
+}
+#interviewData2{
+    margin-top: 40px;
+    text-align: center;
+}
+#competitorAnalysis{
+    margin-top: 50px;
+}
+.userResearch{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#uiAnalysis{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bubbles{
+    width: 60%;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+/*Definition & Synthesis*/
+#defHead{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.definitionAndSynthesis{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    background-color: #F05426;
+}
+#persona2{
+    padding-right: 60px;
+}
+#problemStatement{
+    padding: 20px;
+    background-color: white;
+}
+#user{
+    width: 100%;
+    padding-bottom: 20px;
+}
+/*Ideation*/
+.ideation{
+    margin-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#iLike{
+    margin-bottom: 50px;
+}
+#flow{
+    grid-area: flow;
+    display: flex;
+}
+#colorHeader{
+    margin-top: 50px;
+}
+#colors{
+    margin-bottom: 10px;
+}
+#colorCaption{
+    margin-bottom: 50px;
+}
+#pills{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#userFlow{
+    width: 90%;
+}
+
+.swatch{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#orange{
+    background: linear-gradient(to right,#F05426 0%,#F05426 95%,#F05426 50%,white 5%,white 100%);
+}
+#yellow{
+    background: linear-gradient(to right, #FBA91E 0%,#FBA91E 95%,#FBA91E 50%,white 5%,white 100%);
+}
+#blue{
+    background: linear-gradient(to right, #6176AF 0%,#6176AF 95%,#6176AF 50%,white 5%,white 100%);
+}
+/*Prototyping*/
+.prototyping{
+    background-color: #6176AF;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+#wireframe2{
+    width: 100%;
+}
+#wireframe1{padding-right: 75px;
+}
+/*User Testing & Outcomes*/
+.userTestingAndOutcomes{
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-top: 50px;
+}
+
+#testingCaption{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#responsiveDesign2{
+    background-color: #6176AF;
+    padding: 20px;
+    color: white;
+}
+.graph{
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mobile1{
+    width: 100%;
+    padding: 10px;
+}
+/*Conclusions & Future Opportunities*/
+.conclusions{
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-top: 50px;
+    background-color: #FBA91E;
+}
+#conclusionHeading{
+    margin-left: 75px;
+}
+.conclusions{
+    padding-top: 50px;
+}
+#finalHome{
+    padding-top: 50px;
+    width: 70%;
+    padding-bottom: 50px;
+}
+#concludingStatements{
+    margin-right: 75px;
+}
+.homeFinal{
+    width: 80%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.finalGifs{
+    padding-top: 100px;
+    width: 100%;
+}
+.final2{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#finalGifs2{
+    
+}
+.flexEnd{
+    align-content: flex-end;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+.scrollTop{
+    display: flex;
+    background-color:#6176AF;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.futureOpportunities{
+    margin-top: 50px;
+}
+/*Footer*/
+.footer{
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 75px;
+    margin-bottom: 50px;}
