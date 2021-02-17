@@ -1,0 +1,182 @@
+body{font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Schoolbell', cursive;}
+    h1{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 160px;
+        line-height: 187px;
+        margin-top: 10px;
+        margin-bottom: 30px;}
+    h2{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 60px;}
+    h3{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;}
+    h4{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;}
+    p1{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;}
+    p2{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;}
+    p3{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;}
+    p4{font-family: Schoolbell;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: white;}
+    p5{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;}
+/*Navigation*/
+
+/* General */
+.customNav {
+    background-color: white  !important;
+    width: 100%;
+    color: black !important;
+    opacity: 1 !important;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 75px !important;
+  }
+
+  .nav-item {
+    padding-left: 30px;
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background-color: white !important;
+    background-size: cover;
+    padding: 10px;
+    outline: none;
+
+  }
+  .dropdown-item1:focus, .dropdown-item1:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: #F34C1B;
+  }
+  .dropdown-item2:focus, .dropdown-item2:hover {
+    color: black;
+    text-decoration: none;
+    background: #FBA91E;
+}
+.dropdown-item3:focus, .dropdown-item3:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: #C9D8DF;
+}
+/* Navigation links */
+.customNav a {
+    color: black !important;
+  }
+.nav-item{
+    text-align: center;
+}
+.dropdown-item{
+    text-align: center;
+}
+.pill{
+    border-radius: 20px; 
+    width: auto;
+    height: auto; 
+    padding: 5px 15px 5px 15px; 
+    margin-right: 6px;
+    margin-bottom:6px;
+}
+#sketching{ 
+    background-color: #C74375; 
+}
+#storyboarding{
+    background-color: #FF6F61; 
+}
+#UIdesign{
+    background-color: #92A8D1; 
+}
+#RedLining{
+    background-color: #F0C05A; 
+}
+#UserTesting{
+    background-color: #64A1A4; 
+}
+#UserInterviews{
+    background-color: #C1C5E0; 
+}
+#HTML{
+    background-color: #368E76; 
+}
+#CSS{
+    background-color: #577048; 
+}
+#JavaScript{
+    background-color: #DE413A; 
+}
+#ABTesting{
+    background-color: #5A5B9F; 
+}
+#Branding{
+    background-color: #D94F70; 
+}
+#GitHub{
+    background-color: #233B5D; 
+}
+#BootStrap{
+    background-color: #C26225; 
+}
+#Accessability{
+    background-color: #9B9740; 
+}
+#skillsrow3{
+    text-align: center;
+    color: white;
+    line-height: 35px;    
+}
+
+.footer{
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 75px;
+    margin-bottom: 50px;}
+
+.heading{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+#fixedlogo{position: fixed;
+    left: 10px;
+    top: 26px;
+    width: 40px;}
+
+.photo{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.photography{
+    padding-left: 75px;
+    padding-right: 75px;
+}

@@ -70,6 +70,11 @@ body{font-family: 'Roboto', sans-serif;
     padding-left: 30px;
   }
   
+  .centerFlex{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+  }
   /* Navigation dropdown menu */
   .dropdown-menu {
     background-color: white !important;
@@ -150,7 +155,7 @@ body{font-family: 'Roboto', sans-serif;
     margin-bottom: 50px;
 }
 .bubbles{
-    width: 60%;
+    width: 80%;
     margin-bottom: 10px;
     margin-top: 6px;
 }

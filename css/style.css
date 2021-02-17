@@ -123,6 +123,19 @@ body{font-family: 'Roboto', sans-serif;
 }
 
 /*Header*/
+#resume{
+    display: inline-block;
+}
+#resume.growHover {
+    transition: all .1s ease-in-out;}
+
+#resume:hover {
+      transform: scale(1.1); 
+}
+#resume:hover{
+    background-color:#B6BF71;
+}
+
 .header{grid-area: header;
     }
 #fixedlogo{position: fixed;
