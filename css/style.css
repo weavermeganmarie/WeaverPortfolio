@@ -388,7 +388,7 @@ body{font-family: 'Roboto', sans-serif;
             display: flex;
             justify-content: center;
             align-content: center;
-            background-color: #FF6F61;
+            /*background-color: #FF6F61;*/
             padding-top: 0px;
         }
         #profilephotoelement{
